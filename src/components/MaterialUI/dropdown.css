@@ -1,0 +1,15 @@
+.numbers{
+    background-color: #F8F8F8;
+}
+.selectRow:hover .numbers{
+    color: #1D4ED8;
+    background-color: #D1DDFF;
+}
+.selectRow:focus,
+.selectRow:focus .numbers{
+    color: #1D4ED8;
+}
+
+.selectRow:focus .numbers{
+    background-color: #D1DDFF;
+}

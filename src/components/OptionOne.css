@@ -1,0 +1,100 @@
+/* start sideMenu */
+.opt1 {
+    background-color: #F9FAFF;
+}
+
+.sideMenu {
+    background-color: white;
+}
+
+.circle span {
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+html {
+    background-color: #F5F5F5;
+}
+
+.icon {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #E9EFFF;
+
+}
+
+.icon:nth-child(2) {
+    background-color: #E9EFFF;
+}
+
+.userBottom span {
+    border-radius: 50%;
+    background-color: #D7E5FD;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    color: #B1CDFD;
+    font-size: 10px;
+}
+/* end sideMenu */
+
+/* start theContainer */
+
+.theContainer{
+    font-family: 'Poppins', sans-serif;
+}
+.theContainer h4{
+    color: #1D4ED8;
+}
+.theContainer span:nth-child(2){
+    color: #0B0B0B;
+}
+.theContainer input[type='text']{
+    font-size: 14px;
+    border: 1px solid #F3F3F3;
+}
+.theContainer input[type='text']:focus {
+
+    outline: none;
+}
+.searchField{
+    position: relative;
+}
+.searchField span{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50px;
+    left: 10px;
+}
+
+.taskSpan{
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent #F3F3F4 transparent;
+}
+
+.checkBoxHead{
+    border-bottom: 1px solid #EEEEEE;
+}
+.checkBoxContainer{
+    max-height: 550px;
+    overflow-y: scroll;
+}
+.userNameCheckBox{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    color: #D0E1FF;
+    background-color: #EDF4FF;
+    display: inline-block;
+}
+.checkBoxRow{
+    border-bottom: 1px solid #EEEEEE;
+}
+/* end theContainer */
